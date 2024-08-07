@@ -34,6 +34,3 @@ output "client_vpn_endpoint_dns_name" {
   value = aws_ec2_client_vpn_endpoint.client_vpn.dns_name
 }
 
-output "client_vpn_endpoint_status" {
-  value = aws_ec2_client_vpn_endpoint.client_vpn.status
-}
